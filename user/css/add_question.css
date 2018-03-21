@@ -1,0 +1,99 @@
+/*init style*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*general style*/
+form{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+textarea{
+	margin-left: 20px;
+	margin-top: 10px;
+	resize: none;
+	width: 600px;
+	height: 50px;
+	padding: 3px;
+}
+
+label{
+	font-size: 15pt;
+}
+
+
+.maintain{
+	height: 520px;
+}
+
+.navigation{
+	visibility: visible;
+}
+
+#second{
+	margin-top: 10px;
+}
+
+/*answer style*/
+.answer{
+	margin-left: 20px;
+}
+
+.answer label{
+	font-size: 12pt;
+}
+
+.answer input{
+	height: 20px;
+	width: 500px;
+	margin-bottom: 4px;
+	margin-top: 4px; 
+	padding:2px;
+}
+
+/*right answer style*/
+.right_answer{
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
+
+.right_answer label{
+	margin-right: 5px;
+}
+
+/*indication style*/
+#indication{
+	margin-left: 20px;
+	width: 600px;
+	height: 20px;
+	padding: 2px;
+}
+
+/*theme*/
+#theme{
+	font-size: 12pt;
+	margin-top: 10px;
+	text-align: center;
+	width: 100px;
+}
+
+/*level*/
+#lev{
+	font-size: 12pt;
+	margin-top: 10px;
+	width: 100px;
+	text-align: center;
+}
+
+/*end*/
+#end{
+	width: 100px;
+	height: 40px;
+	position: relative;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: 10px;
+	font-size: 12pt;
+}

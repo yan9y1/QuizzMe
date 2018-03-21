@@ -1,0 +1,23 @@
+table{
+	width: 640px;
+	margin-left: 30px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.maintain{
+	width: 700px;
+	min-height: 500px;
+	padding-bottom: 20px;
+	position: relative;
+	left: 50%;
+	margin-left: -350px;
+}
+
+.navigation{
+	width: 350px;
+	margin-top: 80px;
+	position: relative;
+	left: 50%;
+	margin-left: 30px; 
+}

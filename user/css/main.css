@@ -1,0 +1,82 @@
+/*body*/
+body{
+	padding:0px;
+	margin: 0px;
+	background-image: url("../images/bg1.jpg");
+}
+
+/*header*/
+.header{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	background-image: url("../images/bg2.jpg");
+	background-repeat: repeat;
+	border-bottom: 10px solid black;
+}
+
+.header img{
+	padding-top: 30px;
+}
+
+/*form*/
+.formstyle{
+	text-align: center;
+	font-size: 15pt;
+	border-radius: 20px;
+	border: 5px solid white;
+	padding-top: 75px;
+}
+.formstyle > input{
+	width: 240px;
+	font-size: 13pt;
+	padding: 8px;
+}
+.formstyle > p{
+	font-size: 10pt;
+	line-height: 11pt;
+	color: red;
+	visibility: hidden;
+}
+
+/*if error*/
+.error{
+	background-image: url("../images/error.png");
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	margin-top: 6px;
+	margin-left: 3px;
+	visibility: hidden;
+	position: absolute;
+}
+
+/*button style*/
+.buttonstyle{
+	height: 40px;
+	width: 140px;
+	font-size: 18pt;
+	border-radius: 25px;
+}
+
+/*copy right*/
+#copyright{
+	height: 20px;
+	width: 500px;
+	position: fixed;
+	top: 100%;
+	margin-top: -30px;
+	left: 50%;
+	margin-left: -160px;
+	font-family: arial;
+	font-style: italic;
+	color: #3C3C3C;
+}
+
+#copyright a{
+	color: #AE0000;
+}
+
+#copyright a:hover{
+	color: blue;
+}
